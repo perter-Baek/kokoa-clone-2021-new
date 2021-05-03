@@ -1,8 +1,9 @@
 .screen-header {
   display: flex;
   justify-content: space-between;
-  padding: var(--horizontal-space);
   align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -12,4 +13,15 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
+}
+.cog_dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 4px;
+  display: flex;
+  position: absolute;
+  left: 70px;
+  bottom: 25px;
 }
