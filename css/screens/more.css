@@ -1,0 +1,65 @@
+.badge_1 {
+  border: 1px solid #f08888;
+  border-radius: 50px;
+  padding: 0px 5px;
+  position: absolute;
+  color: #f08888;
+  bottom: -0.8px;
+  right: -22px;
+  border-width: 2.3px;
+  font-weight: 600;
+}
+.user-component__text {
+  position: relative;
+  flex-direction: column;
+}
+
+.user-component__title {
+  margin-bottom: 12px;
+}
+
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+
+.more-suggestions {
+  margin-top: 30px;
+  border-top: var(--border-bottom);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.more-suggestions__icons {
+  display: flex;
+}
+
+.more-suggestions__lcon {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.more-suggestions__lcon-image {
+  background-color: #fade1e;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-suggestions__lcon-image i {
+  font-size: 35px;
+  color: white;
+}
+
+.more-suggestions__lcon-text {
+  margin-top: 6px;
+  font-size: 13px;
+}
